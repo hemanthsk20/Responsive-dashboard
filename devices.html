@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Devices</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <aside class="side-nav" id="show-side-navigation1">
+  <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+  <div class="heading">
+    <img src="images/logo-dark.png" alt="logo">
+  </div>
+  <ul class="categories">
+      <li><a data-toggle="tab" href="#report"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Weathering</a></li>
+      <li><a data-toggle="tab" href="#learn"><i class="fa fa-list" aria-hidden="true"></i> List item 1</a></li>
+      <li><a data-toggle="tab" href="#goals"><i class="fa fa-list" aria-hidden="true"></i> List item 2</a></li>
+      <li><a data-toggle="tab" href="#communication"><i class="fa fa-list" aria-hidden="true"></i> List item 3</a></li>
+      <li><a data-toggle="tab" href="#logout"><i class="fa fa-sign-out" aria-hidden="true"></i>logout</a></li>
+  </ul>
+</aside>
+<section id="contents">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-7 navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <i class="fa fa-align-right"></i>
+          </button> -->
+          <h3><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></h3>
+        </div>
+        <div class="col-xs-5 wexl-main navbar-right">
+          <ul class="nav navbar-nav  pull-right">
+            <!-- <li><a href="#"><i class="fa fa-shield" aria-hidden="true"></i><span>200</span></a></li> -->
+            <!-- <li><a href="#"><span class="hw-circle">I</span></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="right"> 
+    <div class="tab-content">
+      <section class="content">
+        <div class="text-center">
+          <!-- <img class="img-fluid" src="./images/circle.png" alt=""/> -->
+          <!-- <img class="brand-logo img-fluid" src="./images/logo-dark.png" alt=""/> -->
+          <h4>Devices</h4>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="custom-search-input">
+              <div class="input-group col-md-3 float-right">
+                  <input type="text" class="search-query form-control" placeholder="Search" /> <!--border-none -->
+                  <span class="input-group-btn">
+                      <button class="btn btn-danger" type="button">
+                          <span class=" fa fa-search"></span>
+                      </button>
+                  </span>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+        <div class="flex-container" id="device">
+          <div class="flex-item">
+            <div class="card pattern-style">
+              <div class="card-header p-0 fan-background">
+                <div class="device-container">
+                  <div class="device-item1">
+                    <img class="device-fan" src="./images/fan.png" alt="">
+                  </div>
+                  <div class="device-item2">
+                    <div class="device-status">
+                      <p class="pt-1">Device Name: </p>
+                      <p class="pt-1">Turf 1</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">Start Time: </p>
+                      <p class="pt-1">05.00AM</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-2">End Time: </p>
+                      <p class="pt-2">05.30AM</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-2">Status: </p>
+                      <p class="pt-2">Forward</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pt-1 pb-1">
+               
+                  <div class="flex-container">
+                    <div class="flex-btn action-top">
+                        
+                          <button class="btn btn-info custom">Forward</button>
+                       
+                        
+                          <button class="btn btn-info custom">Reverse</button>
+                        
+                       
+                          <button class="btn btn-info custom">Stop</button>
+                       
+                      </div>
+                    </div>
+                    <div class="card-submit action">
+                      <button onclick="window.location.href='pattern.html'" class="btn btn-outline-info">View pattern</button>
+                    </div>
+                  </div>
+                 
+           
+          </div>
+          </div>
+          <div class="flex-item">
+            <div class="card pattern-style">
+              <div class="card-header p-0 fan-background">
+                <div class="device-container">
+                  <div class="device-item1">
+                    <img class="device-fan" src="./images/fan.png" alt="">
+                  </div>
+                  <div class="device-item2">
+                    <div class="device-status">
+                      <p class="pt-1">Device Name: </p>
+                      <p class="pt-1">Turf 2</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">Start Time:</p>
+                      <p class="pt-1">11.15AM</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">End Time:</p>
+                      <p class="pt-1">14.30PM</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">Status: </p>
+                      <p class="pt-1">Idle</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pt-1 pb-1">
+               
+                <div class="flex-container">
+                  <div class="flex-btn action-top">
+                      
+                        <button class="btn btn-info custom">Forward</button>
+                     
+                      
+                        <button class="btn btn-info custom">Reverse</button>
+                      
+                     
+                        <button class="btn btn-info custom">Stop</button>
+                     
+                    </div>
+                  </div>
+                    <div class="card-submit action">
+                      <button onclick="window.location.href='pattern.html'" class="btn btn-outline-info">View pattern</button>
+                    </div>
+                  </div>
+                 
+           
+          </div>
+          </div>
+          <div class="flex-item">
+            <div class="card pattern-style">
+              <div class="card-header p-0 fan-background">
+                <div class="device-container">
+                  <div class="device-item1">
+                    <img class="device-fan" src="./images/fan.png" alt="">
+                  </div>
+                  <div class="device-item2">
+                    <div class="device-status">
+                      <p class="pt-1">Device Name: </p>
+                      <p class="pt-1">Turf 3</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">Start Time: </p>
+                      <p class="pt-1">05.30AM</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">End Time: </p>
+                      <p class="pt-1">05.45AM</p>
+                    </div>
+                    <div class="device-status">
+                      <p class="pt-1">Status: </p>
+                      <p class="pt-1">Reverse</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pt-1 pb-1">
+               
+                <div class="flex-container">
+                  <div class="flex-btn action-top">
+                      
+                        <button class="btn btn-info custom">Forward</button>
+                     
+                      
+                        <button class="btn btn-info custom">Reverse</button>
+                      
+                     
+                        <button class="btn btn-info custom">Stop</button>
+                     
+                    </div>
+                  </div>
+                    <div class="card-submit action">
+                      <button onclick="window.location.href='pattern.html'" class="btn btn-outline-info">View pattern</button>
+                    </div>
+                  </div>
+                 
+           
+          </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      
+    </div> 
+  </div>
+</section>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
